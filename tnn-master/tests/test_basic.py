@@ -1,12 +1,12 @@
 from __future__ import absolute_import, division, print_function
 import time
 
-import tqdm
 import numpy as np
+import tqdm
 import tensorflow as tf
 
-from tnn import main
 from tests import setup
+from tnn import main
 
 BATCH_SIZE = 256
 
